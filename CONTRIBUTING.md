@@ -137,6 +137,8 @@ A release is a version tag. Merging to `master` publishes nothing.
    git push origin v<x.y.z>
    ```
 
-The Release workflow checks out the tag, runs the audit, build and tests again, fails if the tag does not match `package.json`, publishes to npm with a signed provenance statement through Trusted Publishing (no token is stored), and creates a GitHub Release with the tarball attached. A plain version publishes as `latest`; a prerelease publishes as `next`.
+4. Once the Release workflow succeeds, a maintainer approves the staged version in the package's **Staged Packages** tab on npmjs.com, or with `npm stage approve <stage-id>`. Both ask for 2FA.
 
-The registry can take a few minutes to show the new version after the workflow succeeds. A published version cannot be replaced: fix a bad release with a patch version, and tell users to pin the previous version meanwhile.
+The Release workflow checks out the tag, runs the audit, build and tests again, fails if the tag does not match `package.json`, stages the package on npm with a signed provenance statement through Trusted Publishing (no token is stored), and creates a GitHub Release with the tarball attached. Nothing is live on npm until the staged version is approved, so the GitHub Release can appear first. A plain version is staged for `latest`; a prerelease for `next`.
+
+The registry can take a few minutes to show the new version after approval. A published version cannot be replaced: fix a bad release with a patch version, and tell users to pin the previous version meanwhile.

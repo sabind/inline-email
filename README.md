@@ -151,7 +151,7 @@ npm run test:visual
 
 ## Release
 
-A release is a version tag that matches `package.json`; GitHub Actions publishes it to npm with provenance and creates a GitHub Release. The steps, from the version bump to the tag, are in [CONTRIBUTING.md](CONTRIBUTING.md#releases).
+A release is a version tag that matches `package.json`; GitHub Actions stages it on npm with provenance for a maintainer to approve, and creates a GitHub Release. The steps, from the version bump to the tag, are in [CONTRIBUTING.md](CONTRIBUTING.md#releases).
 
 ```sh
 git tag v<x.y.z> origin/master

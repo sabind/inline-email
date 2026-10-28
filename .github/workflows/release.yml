@@ -38,8 +38,8 @@ jobs:
           fi
       - run: npm pack
 
-      - name: Publish to npm
-        run: npm publish --provenance --tag "$NPM_DIST_TAG"
+      - name: Stage on npm
+        run: npm stage publish --provenance --tag "$NPM_DIST_TAG"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v3
