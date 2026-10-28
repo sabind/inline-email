@@ -21,8 +21,8 @@ const quickstartFiles = ['examples/guides/quickstart/welcome.html', 'examples/gu
 const README_MAX_LINES = 220;
 const README_OPENING_LINES = 60;
 const LLMS_MAX_LINES = 60;
-const repoBlobPrefix = 'https://github.com/freethinkingit/inline-email/blob/master/';
-const repoRawPrefix = 'https://raw.githubusercontent.com/freethinkingit/inline-email/master/';
+const repoBlobPrefix = 'https://github.com/sabind/inline-email/blob/master/';
+const repoRawPrefix = 'https://raw.githubusercontent.com/sabind/inline-email/master/';
 const npmPackageUrl = 'https://www.npmjs.com/package/inline-email';
 const fixturePath = join(rootDir, 'fixture.md');
 

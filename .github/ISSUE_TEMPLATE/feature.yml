@@ -9,7 +9,7 @@ body:
       options:
         - label: I searched the existing issues and found nothing that covers this.
           required: true
-        - label: I checked the [documentation](https://github.com/freethinkingit/inline-email/tree/master/docs) and the feature is not already there.
+        - label: I checked the [documentation](https://github.com/sabind/inline-email/tree/master/docs) and the feature is not already there.
           required: true
   - type: input
     id: version
