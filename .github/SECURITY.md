@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Report a vulnerability privately through GitHub's private vulnerability reporting.
-Open the [new advisory form](https://github.com/freethinkingit/inline-email/security/advisories/new), or open the repository's **Security** tab and select **Report a vulnerability**.
+Open the [new advisory form](https://github.com/sabind/inline-email/security/advisories/new), or open the repository's **Security** tab and select **Report a vulnerability**.
 Never report a vulnerability in a public issue.
 
 Include the version you used, the input that triggers the problem, and what happens.

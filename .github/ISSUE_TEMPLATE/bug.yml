@@ -4,7 +4,7 @@ labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
-      value: For a security vulnerability, do not file an issue; follow the [security policy](https://github.com/freethinkingit/inline-email/security/policy) instead.
+      value: For a security vulnerability, do not file an issue; follow the [security policy](https://github.com/sabind/inline-email/security/policy) instead.
   - type: checkboxes
     id: preflight
     attributes:

@@ -1,6 +1,6 @@
 {
   "name": "inline-email",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Compile HTML and CSS into email-safe templates and render them with Handlebars per send. Node library and CLI.",
   "type": "module",
   "main": "dist/index.js",
@@ -63,7 +63,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freethinkingit/inline-email.git"
+    "url": "git+https://github.com/sabind/inline-email.git"
   },
   "keywords": [
     "email",
@@ -77,9 +77,9 @@
     "cli"
   ],
   "bugs": {
-    "url": "https://github.com/freethinkingit/inline-email/issues"
+    "url": "https://github.com/sabind/inline-email/issues"
   },
-  "homepage": "https://github.com/freethinkingit/inline-email#readme",
+  "homepage": "https://github.com/sabind/inline-email#readme",
   "engines": {
     "node": ">=22.0.0"
   },

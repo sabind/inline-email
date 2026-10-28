@@ -110,7 +110,7 @@ Code a guide shows lives under `examples/guides/` and is quoted byte for byte, w
 Open an issue with one of the two forms: **Report a bug** or **Request a feature**.
 Blank issues are turned off.
 
-Ask questions in [Discussions Q&A](https://github.com/freethinkingit/inline-email/discussions/categories/q-a), not in an issue.
+Ask questions in [Discussions Q&A](https://github.com/sabind/inline-email/discussions/categories/q-a), not in an issue.
 Report a security problem privately, as [`.github/SECURITY.md`](.github/SECURITY.md) describes, never in a public issue.
 
 These are the labels used for triage. The repository has others, such as the ones Dependabot adds.

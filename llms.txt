@@ -6,15 +6,15 @@ Templates render with Handlebars, with escape modes `html` and `none`, an option
 
 ## Docs
 
-- [README](https://github.com/freethinkingit/inline-email/blob/master/README.md): What inline-email is for, a quickstart, when to use it and where to go next; start here.
-- [Send a transactional email](https://github.com/freethinkingit/inline-email/blob/master/docs/guides/transactional.md): Build a welcome email with a trusted-HTML slot, render it per user and lock it with a strict-mode test.
-- [Preview a template with the CLI](https://github.com/freethinkingit/inline-email/blob/master/docs/guides/cli-preview.md): Write a template and sample data, render a preview file with `inline-email` and iterate on the design.
-- [Marketing email: helpers, partials and an inlined logo](https://github.com/freethinkingit/inline-email/blob/master/docs/guides/marketing.md): Build a launch announcement with custom helpers, a shared signature partial and an embedded logo.
-- [Build a data-heavy digest email](https://github.com/freethinkingit/inline-email/blob/master/docs/guides/digest.md): Build a weekly digest from an array of rows with loops, conditions and a number-formatting helper.
-- [Reference](https://github.com/freethinkingit/inline-email/blob/master/docs/reference.md): Full library API, template syntax, layout tags and CLI options.
-- [Migration guide](https://github.com/freethinkingit/inline-email/blob/master/MIGRATION.md): Upgrading from 2.x and 3.x to 4.x, covering every place 4.x behaves differently, with before and after examples.
-- [AI prompt for 3.x templates](https://github.com/freethinkingit/inline-email/blob/master/MIGRATION.md#ai-prompt-for-3x-templates): A prompt to paste into an AI assistant with your 3.x templates and sample data; it returns each converted template with its changes listed, then its questions.
-- [AI prompt for 2.x code](https://github.com/freethinkingit/inline-email/blob/master/MIGRATION.md#ai-prompt-for-2x-code): A prompt to paste into an AI assistant with your CLI calls, `lib/render` code and the HTML they read; it returns the converted calls and files with their changes listed, then its questions.
+- [README](https://github.com/sabind/inline-email/blob/master/README.md): What inline-email is for, a quickstart, when to use it and where to go next; start here.
+- [Send a transactional email](https://github.com/sabind/inline-email/blob/master/docs/guides/transactional.md): Build a welcome email with a trusted-HTML slot, render it per user and lock it with a strict-mode test.
+- [Preview a template with the CLI](https://github.com/sabind/inline-email/blob/master/docs/guides/cli-preview.md): Write a template and sample data, render a preview file with `inline-email` and iterate on the design.
+- [Marketing email: helpers, partials and an inlined logo](https://github.com/sabind/inline-email/blob/master/docs/guides/marketing.md): Build a launch announcement with custom helpers, a shared signature partial and an embedded logo.
+- [Build a data-heavy digest email](https://github.com/sabind/inline-email/blob/master/docs/guides/digest.md): Build a weekly digest from an array of rows with loops, conditions and a number-formatting helper.
+- [Reference](https://github.com/sabind/inline-email/blob/master/docs/reference.md): Full library API, template syntax, layout tags and CLI options.
+- [Migration guide](https://github.com/sabind/inline-email/blob/master/MIGRATION.md): Upgrading from 2.x and 3.x to 4.x, covering every place 4.x behaves differently, with before and after examples.
+- [AI prompt for 3.x templates](https://github.com/sabind/inline-email/blob/master/MIGRATION.md#ai-prompt-for-3x-templates): A prompt to paste into an AI assistant with your 3.x templates and sample data; it returns each converted template with its changes listed, then its questions.
+- [AI prompt for 2.x code](https://github.com/sabind/inline-email/blob/master/MIGRATION.md#ai-prompt-for-2x-code): A prompt to paste into an AI assistant with your CLI calls, `lib/render` code and the HTML they read; it returns the converted calls and files with their changes listed, then its questions.
 
 ## Package
 
