@@ -79,7 +79,7 @@
   "bugs": {
     "url": "https://github.com/sabind/inline-email/issues"
   },
-  "homepage": "https://github.com/sabind/inline-email#readme",
+  "homepage": "https://dansabin.com/projects/inline-email",
   "engines": {
     "node": ">=22.0.0"
   },

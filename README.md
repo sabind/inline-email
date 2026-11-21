@@ -9,6 +9,8 @@
 
 inline-email turns HTML and CSS into email-safe templates you compile once and render per send. It is built to be simple and durable, to work across many email clients, and to make emails clear and easy. It is for teams that treat email as a necessary part of their product, worry about dependency bloat, and do not want to build on juice from scratch.
 
+Built and maintained by [Dan Sabin](https://dansabin.com). It sends the mail behind [dansabin.com](https://dansabin.com/projects/inline-email), and that page tells how it is used there.
+
 **Docs:** [Transactional email](docs/guides/transactional.md) · [CLI preview](docs/guides/cli-preview.md) · [Marketing email](docs/guides/marketing.md) · [Data-heavy digest](docs/guides/digest.md) · [Reference](docs/reference.md) · [Migrating to 4.x](MIGRATION.md)
 
 **Upgrading from 2.x or 3.x?** [MIGRATION.md](MIGRATION.md) takes you to 4.x and starts with a prompt for each version that you paste into an AI assistant with your templates or code.
